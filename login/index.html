@@ -88,8 +88,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div id="signup-agile">   
 			<form action="../dashboard/index.html" method="post">
 				
-				<p class="header">User Name</p>
-				<input type="text" name="user" placeholder="Your Full Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Full Name';}" required="required">
+				<p class="header">First Name</p>
+				<input type="text" name="first_name" placeholder="Your Full Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Full Name';}" required="required">
+				
+				<p class="header">Surname</p>
+				<input type="text" name="Surname" placeholder="Your surname" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your surname';}" required="required">
+				
+				<p class="header">Gender
+				<h5><input type="radio" name="gender" required="required">Male</h5>
+				<h5><input type="radio" name="gender" required="required">Female</h5>
+				</p>
+				
+				<p class="header">Postal Address</p>
+				<input type="text" name="postal_address" placeholder="Postal Address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Postal Address';}" required="required">
 				
 				<p class="header">Email Address</p>
 				<input type="email" name="email" placeholder="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="required">
